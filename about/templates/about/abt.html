@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%load static%} 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>About</title>
+
+   
+    
+   
+   
+    <!-- Bootstrap core CSS --   -->
+    <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type = 'text/css' href="{%static 'css/abt.css'%}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+     <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="{%url 'home'%}">James Hutchins</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="{%url 'home'%}">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="{% url 'resume'%}">Resume</a></li>
+              <li class="nav-item"><a class="nav-link" href="{%url 'allblogs'%}">Blog</a></li>
+              <li class="nav-item"><a class="nav-link active" href="{%url 'abt'%}">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="{%url 'gall'%}">Gallery</a></li>
+              
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+
+<main>
+  <div class="scroll">
+    <ul class="navList">
+      <li class="nvit"><a href="#edu" class="navBn">Education</a></li>
+      <li class="nvit"><a href="#sft" class="navBn">Software</a></li>
+      <li class="nvit"><a href="#cert" class="navBn">Certifications</a></li>
+      <li class="nvit"><a href="#ext" class="navBn">Extracurriculars</a></li>
+    </ul>
+  
+  </div>
+  <div class="bio">
+    <div class="hd">
+      <h1 class="">James Hutchins</h1>
+        <img src="{%static 'images/head.jpg'%}" alt="" height="500" width="300">
+        <h3 class="arg">Mechnical Engineering &</h3>
+        <h3 class="arg">Computer Science Student</h3>
+    </div>    
+
+  </div>
+
+<div class="ED" >
+<h1 class="ed" style="height :100;width: 5000px;">Education</h1>
+
+<ul class="help">
+<li class="ed"><h2>Western University</h2>
+  <p>I started my post-Secondary education at Western University in 2020 After being
+    accepted into the first-year general engineering program. After first year I applied to
+     entre both electrical, and Mechanical Engineering. I than chose to go into Mechanical Engineering. 
+     starting in the summer term of 2022 I will be diversifying my university education as I will move 
+     into a concurrent degree in Computer science. However, I still plan on graduation from mechanical Engineering 
+     in 2024, then taking a fifth year to complete the Computer Science degree.
+
+    </p>
+    <a href="{%static 'documentation\47450a5f-3b72-4053-b52e-6fd6bf97c4c8.pdf'%}" class="trns">Transcript</a>
+</li>
+<li class="ed">
+  <h2>Centre Wellinton DHS</h2>
+  <p>I completed my Highschool Graduation in 2020 from a small high school in Fergus Ontario called 
+    Centre Wellington District High school. Through my high school I maintained honor status and graduated 
+    with the Ontario Scholars award. Through my Highschool career I participated in several extracurricular 
+    activities and sports, including but not limited to, the Tennis team, the Wrestling team, Cross Country, Swim 
+    Team, Track and Field, Alpine Ski Team, and Rugby. Centre Wellington’s highly regarded, award winning IT learning 
+    department allowed me to gain significant knowledge of computer maintenance, networks, electronics, computer science, 
+    and even gave me the chance to get hands on experience building computers and preforming real world Tech support 
+    throughout the school. These experiences have heavily increased my abilities to trouble shoot, and problem solve. 
+    These skills today have heavily benefited me in many aspects of my academic, and everyday life.
+ </p>
+</li>
+
+</ul>
+</div>
+
+
+<div class="p-5 mb-0 bg-dark text-white" id="sft">
+  <h1 class="secondary">Software</h1>
+<ul class="sftList">
+  <li class="sft">
+      <h2>Microsoft Excel</h2>
+      <p>Through my post-Secondary career I have recieved formal training for MS Excel, and it's manny applications. On average I would estimate that I use Excel four to five times a week, which stresses the comfertability i have built using the software.
+      </p>
+  </li>
+  <li class="sft">
+      <h2>Python</h2>
+      <p>My experience, and knowledge of the python coding language is on going and is built upon on a daily basis. My skill set ranges from web development, (this website)
+        to knowledge of financial tools in python. Python financial applications is currently my focus as far as the advancement of my computer science education. I also have some experience with applications such as web scrapers.
+</p>
+  </li>
+  <li class="sft">
+    <h2>Matlab</h2>
+    <p>Through the winter semester of 2022, I am enrolled in a course entitled Computational Methods, in which I have the opportunity
+      to grow my knowledge, and skill with the immensely useful Mat-lab data analysis language.
+</p>
+  </li>
+  <li class="sft">
+    <h2>Solid Works</h2>
+    <p>Through my post Secondary education, I have amassed a substantial amount of knowledge in mechanical design with Dassault System's mechanical design software. My education has occurred both within, and outside Western University. </p>
+    <a href="{%url 'gall'%}" class="SWBtn">To see Some of My Work Press Here</a>
+  </li>
+  <li class="sft"> 
+    <h2>Auto-Cad</h2>
+    <p>Throughout my High School career, I gained a significant amount of experience with Auto-Cad Inventor, as well as two-dimensional Auto-Cad
+      This experience includes the design of a robot designed for Skills Canada in 2018, as well as various skill building exercises.
+</p>
+  </li>
+
+
+  <li class="sft"><h2>HTML & CSS</h2>
+  <p>Throughout my university, and high school education I have experimented and grown my knowledge of various coding languages dabbling in everything from C++ to Arduino C, to HTML & CSS. The skill I have learned from these various education ventures have allowed me to build this website. </p></li>
+ 
+  <li class="sft"><h2>Django</h2>
+  <p>Django is a full stack python-based web development system that provides many tools for full stack web development. Django allows for the integration between HTML, Python, and CSS as well as Bootstrap to streamline web development. This site is built using Django.</p>
+
+</ul>
+</div>
+
+<div class="p-5 mb-10 bg-primary text-black" id="cert">
+<h1>Certifications</h1>
+
+<ul>
+  <li>
+    <h2>Solid Works CSWA</h2>
+    <p>In 2021 as part of a class on engineering design I gained applicable skill and
+       knowledge in general design and assemblies’ theory. During this time, I was able to apply 
+       the theoretical learning using Solid Works. Throughout the semester I found myself very much 
+       ahead of the curve when it came to solid works given my relatively substantial past with various CAD software’s. 
+      As a result, in November of 2021, I easily passed the CSWA Exam. </p>
+      
+  </li>
+  <li>
+    <h2>Pilot's Lisence (GPL)</h2>
+    <p>From the age of fourteen i have been flying unpowered aircraft from a small airfield in a 
+      town called CONN Ontario, at a gliding club know as the Toronto Soaring Club. The first year 
+      I took up soaring I spent a significant part of my summer training, and by the time the fall 
+      came I had become the youngest individual to ever be cleared, and to complete a solo flight. 
+      I continued building hours and knowledge for the proceeding two years, and than at the age minimum 
+      age of 16 became a licenced Gilder Pilot.
+</p>
+  </li>
+</ul>
+</div>
+
+</div>
+
+<div class="ext" >
+
+  <h1 class="vs">Extracurricular</h1>
+<br/>
+
+
+
+  
+  
+<div id="design-cast">
+  <div class="member">
+    <img src="{%static 'images/rugby.png'%}" class="img-responsive img-thumbnail" alt="Responsive image" />
+    <div class="name"><h2>Rugby</h2>
+      <br />Trhoughout High school I played rugby 7s, and 15s at varying levels of
+       play. Including High shcool, club, and regional level Rugby. I have participated 
+       in a number of high level tournements, such as The Barbarian cup (highschool jounir final), 
+       and the Ontario summer games. I also went on tour to England and Whales in 2018 to play various 
+       teams in the two countires. In my final year of highschool compitition, I recieved the MVP award.</div>
+  </div>
+  <div class="member">
+    <img src="{%static 'images/France.png'%}" class="img-responsive img-thumbnail" alt="Responsive image" />
+    <div class="name"><h2>ISE International Exchange</h2>
+      <br />In 2016 I participated in a 2-month long exchange. During said exchange I lived in a suburb 
+      of Paris called <a href="https://www.google.com/maps/place/92270+Bois-Colombes,+France/@48.9151438,2.2513371,14z/data=!3m1!4b1!4m5!3m4!1s0x47e6658d845254b1:0x9280fff4234f2007!8m2!3d48.917402!4d2.269675"> Bois-Colombes</a> and attended school in another suburb called 
+      <a href="https://www.google.com/maps/place/92600+Asni%C3%A8res-sur-Seine,+France/@48.8915516,2.2489048,12.55z/data=!4m5!3m4!1s0x47e66f42aca11b2b:0x40b82c3688b3ec0!8m2!3d48.914155!4d2.285369">asnieres sur seine. </a>
+      This experience at a younger age allowed me to become independent, and self-sufficient, as well 
+      as allowing me to grow my knowledge of the French language, and my ability to speak French. </div>
+  </div>
+  <div class="member">
+    <img src="{%static 'images/brig.png'%}" class="img-responsive img-thumbnail" alt="Responsive image" />
+    <div class="name"><h2>Sailing</h2>
+
+      <br />Since a young age Sailing has been a part of my life, it landed me my first job, and has given me many opportunities for adventure. From a very young age I participated in many sailing camps, and racing events which have allowed me to build my skills. I was lucky enough to pass these skills on to several young individuals when I was a sailing instructor. However, my sailing experience does not stop there. For several summers, I partook in the Toronto Brigantine program. With this program I have sailed a significant portion of the great lakes, as well as the Tolerance from Toronto to Quebec City. These sailing experiences were one in a lifetime as they taught me skills such as the ability to work with a team while enduring long hours, and sometimes horrific conditions.  In total I spent about six weeks on the two ships, the T.S.Playfair and Pathfinder. </div>
+  </div>
+ 
+</div>
+    
+
+  
+
+
+</div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container text-center">
+ <p>©James Hutchins {% now "y"%}</p>
+      <a href="#">Back to top</a>
+      </div>
+</footer>
+
+
+ 
+  
